@@ -1,0 +1,117 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Intro section with dropdown navigation</title>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+      <img src="/images/logo.svg" alt="Logo">
+    </a>
+    <a href="#" class="hamburger">
+      <img src="/images/icon-menu.svg" alt="Open menu">
+    </a>
+
+    <div class="left-nav">
+
+      <div class="dropdown feature-dropdown">
+        <a href="#" class="btn dropdown-btn features-btn">
+          <h1 class="features">Features</h1> 
+          <img class="arrow-img-1" src="/images/icon-arrow-down.svg" alt="Arrow pointing down">
+        </a>
+        <div class="dropdown-content feature-menu hide">
+          <a href="#"><img src="./images/icon-todo.svg" alt="" />Todo List </a>
+          <a href="#"><img src="./images/icon-calendar.svg" alt="" />Calendar </a>
+          <a href="#"><img src="./images/icon-reminders.svg" alt="" class="bell"/>Reminders </a>
+          <a href="#"><img src="./images/icon-planning.svg" alt="" />Planing </a>
+        </div>
+      </div>
+
+      <div class="dropdown company-dropdown">
+        <a href="#" class="btn dropdown-btn company-btn">
+          Company 
+          <img class="arrow-img-2" src="/images/icon-arrow-down.svg" alt="Arrow pointing down">
+        </a>
+        <div class="dropdown-content company-menu hide">
+            <a href="#">History</a>
+            <a href="#">Our team</a>
+            <a href="#">Blog</a>
+        </div>
+      </div>
+
+      <a href="#" class="btn">Careers</a>
+      <a href="#" class="btn">About</a>
+
+    </div>
+
+    <div class="right-nav">
+        <a href="#" class="btn">Login</a>
+        <a href="#" class="register-btn">Register</a>
+    </div>
+  </header>
+  <div class="mobile-menu">
+    <div class="mobile-nav">
+      <img src="./images/icon-close-menu.svg" id="close-Menu" alt="Close menu">
+      <div class="mob-nav-container">
+
+        <div class="dropdown">
+            <a href="#" class="btn dropdown-btn features-btn-mob">
+              Features
+              <img class="arrow-img-1-mob" src="/images/icon-arrow-down.svg" alt="Arrow pointing down">
+            </a>
+            <div class="dropdown-content feature-menu-mob hide">
+              <a href="#"><img src="./images/icon-todo.svg" alt="" />Todo List </a>
+              <a href="#"><img src="./images/icon-calendar.svg" alt="" />Calendar </a>
+              <a href="#"><img src="./images/icon-reminders.svg" alt="" />Reminders </a>
+              <a href="#"><img src="./images/icon-planning.svg" alt="" />Planing </a>
+            </div>
+        </div>
+
+        <div class="dropdown company-dropdown">
+          <a href="#" class="btn dropdown-btn company-btn-mob">
+            Company 
+            <img class="arrow-img-2-mob" src="/images/icon-arrow-down.svg" alt="Arrow pointing down">
+          </a>
+          <div class="dropdown-content company-menu-mob hide">
+              <a href="#">History</a>
+              <a href="#">Our team</a>
+              <a href="#">Blog</a>
+          </div>
+        </div>
+
+        <a href="#">Careers</a>
+        <a href="#">About</a>
+
+        <a href="#" class="login-btn-mob">Login</a>
+        <a href="#" class="register-btn-mob">Register</a>
+
+      </div>
+    </div>
+  </div>
+
+  <main class="hero">
+    <div class="hero-text">
+      <h2 class="title">Make <br> remote work</h2>
+      <p class="subtext">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+      <button class="learn-more-btn">Learn More</button>
+      <div class="logos">
+        <img src="./images/client-databiz.svg" alt="Databiz logo">
+        <img src="./images/client-audiophile.svg" alt="Audiophile logo">
+        <img src="./images/client-meet.svg" alt="Meet logo">
+        <img src="./images/client-maker.svg" alt="Maker logo">
+      </div>
+    </div>
+    <div class="hero-img">
+        <img src="/images/image-hero-desktop.png" alt="A guy holding a laptop">
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
